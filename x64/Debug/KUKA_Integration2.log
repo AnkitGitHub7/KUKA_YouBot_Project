@@ -1,0 +1,52 @@
+﻿  stdafx.cpp
+  CBaumerCamera.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cbaumercamera.h(22): fatal error C1083: Cannot open include file: 'bgapi2_genicam.hpp': No such file or directory
+  CController.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cbaumercamera.h(22): fatal error C1083: Cannot open include file: 'bgapi2_genicam.hpp': No such file or directory
+  CCoordinate.cpp
+  CEventQueue.cpp
+  CKinect2Interface.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\ckinect2interface.cpp(184): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\ckinect2interface.cpp(204): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\ckinect2interface.cpp(281): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\ckinect2interface.cpp(302): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\ckinect2interface.cpp(371): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\ckinect2interface.cpp(372): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\ckinect2interface.cpp(390): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  CMove.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cbaumercamera.h(22): fatal error C1083: Cannot open include file: 'bgapi2_genicam.hpp': No such file or directory
+  CObjectDetection.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cobjectdetection.cpp(183): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cobjectdetection.cpp(221): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cobjectdetection.cpp(222): warning C4101: 'l': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cobjectdetection.cpp(543): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cobjectdetection.cpp(583): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cobjectdetection.cpp(585): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cobjectdetection.cpp(512): warning C4101: 'resx': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cobjectdetection.cpp(512): warning C4101: 'resy': unreferenced local variable
+  CRobotCommunication.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(27): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(103): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(124): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(71): warning C4477: 'sprintf_s' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'DWORD (__cdecl *)(void)'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(71): warning C4313: 'sprintf_s': '%i' in format string conflicts with argument 1 of type 'DWORD (__cdecl *)(void)'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(110): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(110): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'double'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(94): warning C4101: 'sendOk': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(136): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(171): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(191): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(153): warning C4101: 'sendOk': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(230): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(240): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(250): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(260): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(270): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(280): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(289): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  CRoute.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\croute.cpp(125): warning C4804: '<=': unsafe use of type 'bool' in operation
+  main.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\cbaumercamera.h(22): fatal error C1083: Cannot open include file: 'bgapi2_genicam.hpp': No such file or directory
+  Generating Code...
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_17_8_18\kuka_integration2\crobotcommunication.cpp(307): warning C4715: 'CRobotCommunication::driveByKey': not all control paths return a value

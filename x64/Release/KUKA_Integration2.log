@@ -1,0 +1,117 @@
+﻿  stdafx.cpp
+  CBaumerCamera.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.h(58): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.h(147): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(27): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(521): warning C4018: '<=': signed/unsigned mismatch
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(524): warning C4018: '<': signed/unsigned mismatch
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(914): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(915): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(847): warning C4477: 'sprintf_s' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'DWORD (__cdecl *)(void)'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(847): warning C4313: 'sprintf_s': '%i' in format string conflicts with argument 1 of type 'DWORD (__cdecl *)(void)'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(884): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::chrono::milliseconds'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(931): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::chrono::duration<__int64,std::milli>'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(961): warning C4101: 'e': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(986): warning C4477: 'sprintf_s' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'DWORD (__cdecl *)(void)'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(986): warning C4313: 'sprintf_s': '%i' in format string conflicts with argument 1 of type 'DWORD (__cdecl *)(void)'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1001): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::chrono::milliseconds'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(983): warning C4101: 'start': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1118): warning C4101: 'e': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1136): warning C4101: 'start': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1251): warning C4101: 'e': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1836): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1837): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1846): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::chrono::milliseconds'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1737): warning C4101: 'e': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1894): warning C4474: 'sprintf_s' : too many arguments passed for format string
+  c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1894): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1895): warning C4474: 'sprintf_s' : too many arguments passed for format string
+  c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1895): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1896): warning C4474: 'sprintf_s' : too many arguments passed for format string
+  c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1896): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1897): warning C4474: 'sprintf_s' : too many arguments passed for format string
+  c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1897): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1898): warning C4474: 'sprintf_s' : too many arguments passed for format string
+  c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1898): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1899): warning C4474: 'sprintf_s' : too many arguments passed for format string
+  c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1899): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(2105): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(2118): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(2119): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  CController.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.h(58): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.h(147): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  CCoordinate.cpp
+  CEventQueue.cpp
+  CKinect2Interface.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\ckinect2interface.cpp(184): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\ckinect2interface.cpp(204): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\ckinect2interface.cpp(281): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\ckinect2interface.cpp(302): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\ckinect2interface.cpp(371): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\ckinect2interface.cpp(372): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\ckinect2interface.cpp(390): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  CMove.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.h(58): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.h(147): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  CObjectDetection.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cobjectdetection.cpp(183): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cobjectdetection.cpp(222): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cobjectdetection.cpp(223): warning C4101: 'l': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cobjectdetection.cpp(543): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cobjectdetection.cpp(583): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cobjectdetection.cpp(585): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cobjectdetection.cpp(512): warning C4101: 'resx': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cobjectdetection.cpp(512): warning C4101: 'resy': unreferenced local variable
+  CRobotCommunication.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(27): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(104): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(125): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(72): warning C4477: 'sprintf_s' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'DWORD (__cdecl *)(void)'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(72): warning C4313: 'sprintf_s': '%i' in format string conflicts with argument 1 of type 'DWORD (__cdecl *)(void)'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(111): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(111): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'double'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(95): warning C4101: 'sendOk': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(137): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(175): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(195): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(154): warning C4101: 'sendOk': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(234): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(244): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(254): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(264): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(274): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(284): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(293): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  CRoute.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\croute.cpp(125): warning C4804: '<=': unsafe use of type 'bool' in operation
+  main.cpp
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.h(58): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.h(147): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\main.cpp(33): warning C4101: 'y1': unreferenced local variable
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\main.cpp(33): warning C4101: 'x1': unreferenced local variable
+  Generating code
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(462): warning C4715: 'CBaumerCamera::initSystem': not all control paths return a value
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(714): warning C4715: 'CBaumerCamera::initDataStreamsAndBuffers': not all control paths return a value
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\crobotcommunication.cpp(311): warning C4715: 'CRobotCommunication::driveByKey': not all control paths return a value
+c:\users\cra\source\repos\kuka_integration2_kinectbaumerplatform2_18_8_18\kuka_integration2\cbaumercamera.cpp(1272): warning C4715: 'CBaumerCamera::AquisitionPolling': not all control paths return a value
+  All 1226 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  KUKA_Integration2.vcxproj -> C:\Users\CRA\source\repos\KUKA_Integration2_KinectBaumerPlatform2_18_8_18\x64\Release\KUKA_Integration2.exe
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\bgapi2_genicam.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\bgapi2_gige.cti
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\bgapi2_img.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\bgapi2_usb.cti
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\bopfdrvctl.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\bsysgige.xml
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\bsysusb.xml
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\GCBase_MD_VC120_v3_0_baumer.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\GenApi_MD_VC120_v3_0_baumer.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\log4cpp_MD_VC120_v3_0_baumer.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\Log_MD_VC120_v3_0_baumer.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\MathParser_MD_VC120_v3_0_baumer.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\msvcp120.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\msvcr120.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\NodeMapData_MD_VC120_v3_0_baumer.dll
+  C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64\XmlParser_MD_VC120_v3_0_baumer.dll
+         16 file(s) copied.

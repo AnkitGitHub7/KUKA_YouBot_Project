@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{C1EE596B-E70F-4AC3-8D0C-496039E3EA78}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>KUKAIntegration2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Programming_Libraries\Eigen3\include;C:\Programming_Libraries\GSL\include;C:\opencv\build\install\include;C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Programming_Libraries\GSL\lib;C:\opencv\build\install\x64\vc15\lib;C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>"opencv_xphoto400d.lib";"opencv_aruco400d.lib";"opencv_bgsegm400d.lib";"opencv_bioinspired400d.lib";"opencv_calib3d400d.lib";"opencv_ccalib400d.lib";"opencv_core400d.lib";"opencv_datasets400d.lib";"opencv_dnn_objdetect400d.lib";"opencv_dnn400d.lib";"opencv_dpm400d.lib";"opencv_face400d.lib";"opencv_features2d400d.lib";"opencv_flann400d.lib";"opencv_fuzzy400d.lib";"opencv_hfs400d.lib";"opencv_highgui400d.lib";"opencv_img_hash400d.lib";"opencv_imgcodecs400d.lib";"opencv_imgproc400d.lib";"opencv_line_descriptor400d.lib";"opencv_ml400d.lib";"opencv_objdetect400d.lib";"opencv_optflow400d.lib";"opencv_phase_unwrapping400d.lib";"opencv_photo400d.lib";"opencv_plot400d.lib";"opencv_reg400d.lib";"opencv_rgbd400d.lib";"opencv_saliency400d.lib";"opencv_shape400d.lib";"opencv_stereo400d.lib";"opencv_stitching400d.lib";"opencv_structured_light400d.lib";"opencv_superres400d.lib";"opencv_surface_matching400d.lib";"opencv_text400d.lib";"opencv_tracking400d.lib";"opencv_video400d.lib";"opencv_videoio400d.lib";"opencv_videostab400d.lib";"opencv_xfeatures2d400d.lib";"opencv_ximgproc400d.lib";"opencv_xobjdetect400d.lib";"Kinect20.Face.lib";"Kinect20.Fusion.lib";"Kinect20.lib";"Kinect20.VisualGestureBuilder.lib";"C:\Programming_Libraries\GSL\lib\gsl.lib";"C:\Programming_Libraries\GSL\lib\gslcblas.lib";%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Programming_Libraries\Eigen3\include;C:\Programming_Libraries\GSL\include;C:\opencv\build\install\include;C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc;C:\Program Files\Baumer\Baumer GAPI SDK\Components\Dev\C++\Inc\bgapi2_genicam;$(BOOST_ROOT);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Programming_Libraries\GSL\lib;C:\opencv\build\install\x64\vc15\lib;C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\x64;C:\Program Files\Baumer\Baumer GAPI SDK\Components\Dev\C++\Lib\x64;$(BOOST_ROOT)\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>"C:\opencv\build\install\x64\vc15\lib\opencv_xfeatures2d400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_ximgproc400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_ximgproc400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_xobjdetect400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_xobjdetect400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_xphoto400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_xphoto400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_aruco400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_aruco400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_bgsegm400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_bgsegm400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_bioinspired400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_bioinspired400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_calib3d400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_calib3d400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_ccalib400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_ccalib400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_core400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_core400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_datasets400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_datasets400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_dnn_objdetect400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_dnn_objdetect400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_dnn400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_dnn400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_dpm400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_dpm400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_face400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_face400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_features2d400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_features2d400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_flann400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_flann400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_fuzzy400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_fuzzy400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_hfs400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_hfs400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_highgui400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_highgui400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_img_hash400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_img_hash400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_imgcodecs400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_imgcodecs400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_imgproc400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_imgproc400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_line_descriptor400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_line_descriptor400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_ml400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_ml400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_objdetect400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_objdetect400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_optflow400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_optflow400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_phase_unwrapping400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_phase_unwrapping400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_photo400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_photo400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_plot400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_plot400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_reg400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_reg400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_rgbd400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_rgbd400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_saliency400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_saliency400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_shape400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_shape400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_stereo400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_stereo400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_stitching400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_stitching400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_structured_light400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_structured_light400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_superres400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_superres400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_surface_matching400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_surface_matching400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_text400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_text400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_tracking400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_tracking400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_video400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_video400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_videoio400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_videoio400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_videostab400.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_videostab400d.lib";"C:\opencv\build\install\x64\vc15\lib\opencv_xfeatures2d400.lib";"Kinect20.Face.lib";"Kinect20.Fusion.lib";"Kinect20.lib";"Kinect20.VisualGestureBuilder.lib";"C:\Programming_Libraries\GSL\lib\gsl.lib";"C:\Programming_Libraries\GSL\lib\gslcblas.lib";bgapi2_genicam.lib;libboost_log-vc141-mt-gd-x64-1_67.lib;libboost_log-vc141-mt-x64-1_67.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "C:\Program Files\Baumer\Baumer GAPI SDK\Components\Bin\x64</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CBaumerCamera.h" />
+    <ClInclude Include="CController.h" />
+    <ClInclude Include="CCoordinate.h" />
+    <ClInclude Include="CEventQueue.h" />
+    <ClInclude Include="CKinect2Interface.h" />
+    <ClInclude Include="CMove.h" />
+    <ClInclude Include="CObjectDetection.h" />
+    <ClInclude Include="CRobotCommunication.h" />
+    <ClInclude Include="CRoute.h" />
+    <ClInclude Include="sharedMutex.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CBaumerCamera.cpp" />
+    <ClCompile Include="CController.cpp" />
+    <ClCompile Include="CCoordinate.cpp" />
+    <ClCompile Include="CEventQueue.cpp" />
+    <ClCompile Include="CKinect2Interface.cpp" />
+    <ClCompile Include="CMove.cpp" />
+    <ClCompile Include="CObjectDetection.cpp" />
+    <ClCompile Include="CRobotCommunication.cpp" />
+    <ClCompile Include="CRoute.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
